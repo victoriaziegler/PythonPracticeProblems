@@ -11,4 +11,18 @@
 # problem to get a good feel for how to solve it.
 
 def can_make_pasta(ingredients):
-    pass
+    pasta_ingredients = ['flour', 'eggs', 'oil']
+    for ing in ingredients:
+        if ingredients == pasta_ingredients:
+            return True
+        return False
+
+
+ingredients_list = ['flour', 'eggs', 'oil']
+print(can_make_pasta(ingredients_list))
+
+
+ingredients_list2 = ['butter', 'eggs', 'oil']
+print(can_make_pasta(ingredients_list2))
+
+

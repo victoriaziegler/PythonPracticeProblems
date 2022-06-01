@@ -12,5 +12,15 @@
 # Write out some pseudocode before trying to solve the
 # problem to get a good feel for how to solve it.
 
+
 def is_palindrome(word):
-    pass
+    word_list = list(word)
+    new_word = ''.join(reversed(word_list))
+    return new_word == word
+
+
+word = "racecar"
+print(is_palindrome(word))
+
+word2 = "banana"
+print(is_palindrome(word2))

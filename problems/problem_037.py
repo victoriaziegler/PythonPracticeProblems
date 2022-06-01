@@ -23,5 +23,14 @@
 #     pad:    " "
 #     result: "   19"
 
+# JAYS SOLUTION:
+
 def pad_left(number, length, pad):
-    pass
+    s = str(number)
+    while len(s) < length:
+        s = pad + s
+    return s
+
+
+print(pad_left(5, 5, 'a'))
+        
