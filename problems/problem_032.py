@@ -16,3 +16,16 @@
 # problem to get a good feel for how to solve it.
 
 def sum_of_first_n_numbers(limit):
+    if limit < 0:
+        return None
+    sum = 0
+    for number in range(0, limit + 1):
+        sum += number
+    return sum
+
+
+print(sum_of_first_n_numbers(-1))
+print(sum_of_first_n_numbers(0))
+print(sum_of_first_n_numbers(1))
+print(sum_of_first_n_numbers(2))
+print(sum_of_first_n_numbers(5))

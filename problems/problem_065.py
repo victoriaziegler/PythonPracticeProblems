@@ -17,3 +17,15 @@
 #
 # You may want to look at the built-in "abs" function
 
+def biggest_gap(numbers):
+    for number in numbers:
+        
+
+list1 = [1, 3, 5, 7]
+print(biggest_gap(list1))
+
+list2 = [1, 11, 9, 20, 0]
+print(biggest_gap(list2))
+
+list3 = [1, 3, 100, 103, 106]
+print(biggest_gap(list3))
